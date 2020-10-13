@@ -1,75 +1,23 @@
-# TODO
+# Todo Project
 
-## 멤버
+Github Project Page의 칸반 보드를 바탕으로 제작한 할 일 관리 프로젝트입니다. 
 
-- FE : Ed
-- BE : Lynn, Diane
-- iOS : 모스
+## Member
 
-## 규칙
+| 분야 |    이름     |
+| :--: | :---------: |
+|  FE  |     Ed      |
+|  BE  | Lynn, Diane |
+| iOS  |    모스     |
 
-- 주말엔 자유 시간
-- `14시 ~ 18시` : 업무 시간
+## Features
 
-## 스크럼
+- TypeScript + Vanilla JS
+- Tailwind CSS
+- [Drag and Drop API 사용하지 않고 직접 구현](https://github.com/codesquad-member-2020/todo-6/blob/dev/FE/src/ts/components/dragAndDrop.ts)
 
-- 매일 `11시`
-- 어제 한 일 / 오늘 할 일 / 현재 컨디션 / 고민거리
-- 행아웃으로 진행
-- 위키에 별도로 일지 작성
+## Docs 
 
-## 브랜치
-
-- 클래스별 `fe`,`be`,`ios` 브랜치 만들기
-- 작업이 끝나면 각자 클래스별 브랜치에 머지
-- 필요할 경우(배포 등) `dev` 브랜치로 머지
-
-## PR
-
-- 하나의 이슈에 하나의 풀 리퀘스트
-
-## 이슈
-
-### 이슈 포맷
-
-```
-[클래스명] 이슈명
-```
-
-- 클래스별 라벨 붙이기
-
-## 커밋
-
-### 커밋 포맷
-
-```
-[이슈 번호] 커밋 타입: 커밋 제목
-
-- 커밋 내용 1
-- 커밋 내용 2
-  - 커밋 내용 2-1
-  ...
-```
-
-### 커밋 타입
-
-| 타입         | 설명                         |
-| ---------- | -------------------------- |
-| `Feat`     | 새로운 기능 추가                  |
-| `Fix`      | 버그 수정                      |
-| `Docs`     | 문서 작업, 수정                  |
-| `Refactor` | 코드 리팩토링                    |
-| `Style`    | 코드 컨벤션 수정(함수/변수명 변경 포함)    |
-| `Test`     | 테스트 코드 작성                  |
-| `Chore`    | 소스 코드를 건들지 않는 작업(빌드 업무 수정) |
-
-### 커밋 제목
-
-- **한글**로 작성
-- **한 줄**로 작성
-- **명령형**으로 작성
-
-### 커밋 내용
-
-- 필요한 경우에만 작성
-- 내용은 `-` 로 구분
+- [기능 요구사항 분석](https://github.com/codesquad-member-2020/todo-6/issues?q=label%3AFE+is%3Aclosed)
+- [그라운드 룰](https://github.com/sungik-choi/todo-project/wiki)
+- [회고](https://docs.google.com/spreadsheets/d/1rUstHFRT6rO143h00mC_-QKll7CPYAUeG-M1NH30t6k/edit#gid=391917806)
